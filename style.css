@@ -47,6 +47,12 @@
     margin-top: 32px;
 }
 
+.btn-contact:hover {
+    background: #FFFFFF;
+    color: #F15B22;
+    border: 1px solid #F15B22;
+}
+
 
 /* My failures style */
 p a {
@@ -115,3 +121,88 @@ p a {
 }
 
 /* gradient style */
+.gradient {
+    background-image: url("./images/gradient2.png"), url("./images/watch.png");
+    height: 300px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.text-area {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.gradient-tittle {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.call-btn {
+    color: #F15B22;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 21px 36px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.call-btn:hover {
+    background: #F15B22;
+    color: #ffffff;
+}
+
+/* footer style */
+.footer-section {
+    background: #151414;
+    height: 580px;
+}
+
+.footer {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 120px;
+}
+
+.footer-tittle {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.footer-para {
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.subscribe {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.text-box {
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    width: 325px;
+    height: 64px;
+    padding: 10px;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+.icon{
+    margin-top: 32px;
+}
+.icons{
+    margin-right: 25px;
+}
+
